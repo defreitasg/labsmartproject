@@ -5,7 +5,7 @@ Utilizando do programa Brackets no qual me sinto mais a vontade para fazer o pri
 
 Iniciei a estruturação do site criando o corpo index.html como minha página home.
 Procurei formatar um site responsivo, o qual pudesse ser acessado em diversas plataformas (tablet, celular, computadores/notebooks em geral..). Para isso, criei 3 documentos distintos utilizando .CSS: small.css, para ser visualizado em menor resolução (Ex: celulares); medium.css, para resoluções de médio porte (Ex: tablets); e large.css, em resoluções maiores (Ex: notebooks).
-PS: estes 3 estruturas poderiam ser feitas em somente um doc .CSS, porém por preferencia e organização própria criei em 3 docs separados.
+PS: estas 3 estruturas poderiam ser feitas em somente um doc .CSS, porém por preferencia e organização própria criei em 3 docs separados.
 <!-----APENAS ESTRUTURA DO DOC SMALL.CSS PARA EXEMPLO----->
 
 	.size-div {
@@ -78,9 +78,9 @@ Após o corpo HTML do meu cabeçalho estar pronto, parti para a codificação ut
 
 Ao finalizar o MENU parti para a estrutura do corpo HOME do meu site, adicionando uma logo de entrada em .GIF para trazer movimento e deixar de certa forma orgânico o visual, abaixo um breve texto e outra logo de forma mais formal porém procurando buscar algo mais agressivo que combinasse com o menu.
 
-Abaixo do texto criei um codigo que interagisse como uma clickbox VER MAIS>>> ou <a> que levasse o visitante a outra página do site destinada ao conteúdo SOBRE.
+Abaixo do texto criei um codigo hiperlink que interagisse como uma clickbox VER MAIS>>> ou <a> que levasse o visitante a outra página do site destinada ao conteúdo SOBRE.
 
-<!-----CÓDIGO CLICKBOX VER MAIS>>>------> index.html
+<!-----CÓDIGO HIPERLINK VER MAIS>>>------> index.html
 
 	<div>
 		<p>
