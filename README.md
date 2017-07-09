@@ -175,8 +175,8 @@ A criação do formulário se baseia em na seguinte estrutura:
 					
 	</form>
 	
-Utilizando a <form> o comando POSTER para enviar a um site de hospedagem e a ACTION para selecionar o domínio qual o usuário seria encaminhado.
-utilizando o comando REQUIRED dentro do <INPUT para fazer com que o campo desejado seja obrigatório, além de outros artefatos tanto para email como também numero de telefone com a chave TYPE para permitir entradas que fossem desejadas como email valido e número de telefone contendo apenas algarismos numéricos.
+Utilizando a chave FORM com o comando POSTER para enviar a um site de hospedagem e a ACTION para selecionar o domínio qual o usuário seria encaminhado.
+utilizando o comando REQUIRED dentro do INPUT para fazer com que o campo desejado seja obrigatório, além de outros artefatos tanto para email como também numero de telefone com a chave TYPE para permitir entradas que fossem desejadas como email valido e número de telefone contendo apenas algarismos numéricos.
 Com o cmd INPUT editei meu clickbox da pagina. Utilizando o CSS dei vida para o formulário, criando sombras, bordas animações com botões mouse e cores para deixar o site mais moderno permitindo se adequar o visual de ambas as páginas. 
 
 <!-------------CMD FORMULÁRIO CSS------> style.css
@@ -202,7 +202,7 @@ Com o cmd HOVER é feita a animação com alteração de cor ao passar o mouse s
 O cmd LABEL para utilizar a ordem FLOAT permitindo que todos os campos do meu formulario se alinhassem a sua esquerda, não permitindo os campos de ficarem tortos na pagina de web.
 
 
-Para a página de confirmação apenas linkei a minha página de formulário com o cmd <a> para poder retornar.
+Para a página de confirmação apenas linkei a minha página de formulário com uma hiperlink para poder retornar.
 
 <!------CMD PG CONFIRMAÇÃO------->
 
