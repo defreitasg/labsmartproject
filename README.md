@@ -89,7 +89,7 @@ Abaixo do texto criei um codigo que interagisse como uma clickbox VER MAIS>>> ou
 	</div>
 	
 
-Na página SOBRE apenas foram adicionados textos utilizando cod <div> <p> <h1> e style="margin" para dar formatação da margem dos textos adicionados.
+Na página SOBRE apenas foram adicionados textos utilizando cod <div > <p > <h1 > e style="margin" para dar formatação da margem dos textos adicionados.
 
 
 <!----------COD BODY DE TODO SITE EM CSS-----> style.css
