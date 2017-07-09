@@ -1,5 +1,5 @@
 # labsmartproject
-Criação de site navegavel
+Criação de site navegável
 
 Utilizando do programa Brackets no qual me sinto mais a vontade para fazer o primeiro processo de estrutura do site e organização de docs e pastas e também uma orientação de quantos arquivos seriam necessários.
 
@@ -124,9 +124,12 @@ Na página SOBRE apenas foram adicionados textos utilizando cod div p h1 e style
 		-moz-box-shadow:1px 1px 7px rgba(0,0,0,0.5);
 	}
 	
-Na pagina PORTIFOLIO utilizei o javascript para criar o meu slideshow scriptado.
+Na pagina PORTIFOLIO utilizei o javascript para criar o meu slideshow scriptado com a função fade e velocidade de 2s.
+Utilizando jquery.cycle.all e jquery.min
+http://jquery.malsup.com/cycle/
+http://jquery.com/
 
-<!--------COD DE SCRIPTUTILIZADO-------> portfolio.html
+<!--------SCRIPT-------> portfolio.html
 	<script type="text/javascript" src="javascripts/jquery.min.js"> </script>
 		<script type="text/javascript" src="javascripts/jquery.cycle.all.js"> </script>
 
@@ -141,7 +144,7 @@ Na pagina PORTIFOLIO utilizei o javascript para criar o meu slideshow scriptado.
 
 		</script>
 
-<!--------------COD DAS IMG SCRIPTADAS EM HTML UTILIZANDO A CLASS="SLIDES"-----> portfolio.html
+<!--------------COD DAS IMG SCRIPTADAS POR JAVASCRIPT-----> portfolio.html
 	<div class="slides">
 			<ul>
 				<li> <img src="img/imagem1.jpg" alt="Slide 1" width="1347" height="400" /> </li>
@@ -152,4 +155,71 @@ Na pagina PORTIFOLIO utilizei o javascript para criar o meu slideshow scriptado.
 	</div>
 	
 
+Na parte de requisição e validação de dados passei a utilizar o nodepad++ para poder ao tempo que criava o corpo conseguisse testar em mais de um navegador de forma mais ágil.
+A criação do formulário se baseia em na seguinte estrutura:
+
+<!------COD FORMULÁRIO-------> contato.html
+
+	<form method="poster" action="gravar.html">
+		<label> Nome: </label><br>
+			<input type="text" required class="campo" id="nome" /><br>
+		<label> Email: </label><br>
+			<input type="email" placeholder="name@email.com" required class="campo" id="email" /><br>
+		<label> Telefone: </label><br>
+			<input type="tel" id="phonenum" type="tel" placeholder="Ex 48 89879-3323" pattern="^\d{2} \d{5}-\d{4}$" required class="campo" id="telefone" /><br>
+		<label> Assunto: </label><br>
+		<textarea type="textAssunto" cols="30" placeholder="Não é obrigatório" rows="6" > </textarea><br>
 	
+		<input  class="button" type="submit"/>
+					
+					
+	</form>
+	
+Utilizando a <form> o comando POSTER para enviar a um site de hospedagem e a ACTION para selecionar o domínio qual o usuário seria encaminhado.
+utilizando o comando REQUIRED dentro do <INPUT para fazer com que o campo desejado seja obrigatório, além de outros artefatos tanto para email como também numero de telefone com a chave TYPE para permitir entradas que fossem desejadas como email valido e número de telefone contendo apenas algarismos numéricos.
+Com o cmd INPUT editei meu clickbox da pagina. Utilizando o CSS dei vida para o formulário, criando sombras, bordas animações com botões mouse e cores para deixar o site mais moderno permitindo se adequar o visual de ambas as páginas. 
+
+<!-------------CMD FORMULÁRIO CSS------> style.css
+
+	.button{
+		background:#ff8a00;
+		border:20;
+		padding:10px;
+		width:110px;
+		border-radius:5px;
+		cursor:pointer;
+
+	}
+Permitindo animar o cursos ao passar por cima da checkbox e mudar visual, tamanho, borda etc..
+
+	.button:hover{
+		background-color:#FF5105;
+	}
+Com o cmd HOVER é feita a animação com alteração de cor ao passar o mouse sobre uma checkbox
+	
+	#formulario label{
+		float:left;
+O cmd LABEL para utilizar a ordem FLOAT permitindo que todos os campos do meu formulario se alinhassem a sua esquerda, não permitindo os campos de ficarem tortos na pagina de web.
+
+
+Para a página de confirmação apenas linkei a minha página de formulário com o cmd <a> para poder retornar.
+
+<!------CMD PG CONFIRMAÇÃO------->
+
+	<div class="conteudo">
+	<p>
+		Parabéns! Seu cadastro já foi concluído!!
+
+		Se deseja retornar, clique no botão voltar.
+	</p>
+		<div>
+		<p>
+			<a href="contato.html" id="bntInfo" class="#"><< Voltar </a>
+		</p>
+		</div>
+	</div>
+
+
+SITE CONCLUÍDO. :)
+
+
