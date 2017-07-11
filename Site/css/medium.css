@@ -1,0 +1,14 @@
+/* DOCUMENTO CSS */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.size-div {
+	position: relative;
+	width: 768px;
+	margin: 0 auto;
+	height: 500px;
+	background-color: #000000
+}
